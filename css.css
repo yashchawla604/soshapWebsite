@@ -1,0 +1,329 @@
+/*Css file for the project SOSHAP*/
+
+/* styling the main heading */
+#main_Name                                          
+{
+    color:#ffcc00;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-bottom: 2px;
+    margin-left:10px;
+    padding-left:5px;
+    line-height: 1px; 
+    font-size: 25px;
+}
+
+/* styling the tagline */
+.tagLine
+{
+    color: black;
+    font-size:13px;
+    padding-bottom: -10px;
+    margin-bottom:0px;
+    
+}
+/* styling the marquee tag... BE happy be positive keep smiling line  */
+marquee
+{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 800;
+    padding:0px;
+    margin:0px;
+}
+
+/* styling the unordered list for nav */
+ul
+{   
+    list-style-type: none;
+    margin-left:0px;
+    margin-top:1px;
+    padding-left:750px;
+    overflow: hidden;
+    background-color:#ffcc00 ;   
+}
+
+/* styling the list item*/
+li
+{
+    float: left;
+    padding-left:20px;   
+}
+
+/* styling the anchor tag of the navigation  bar*/
+li a
+{
+    display:flex;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+/* styling the navigation bar when active*/
+li a:active
+{
+    background-color: wheat;
+}
+
+/* styling the navigation bar button when hover mouse on it*/
+li a:hover
+{
+    
+    
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+/* styling the side navigation bar and displaying it in the grid format*/
+#side_Nav
+{
+    float:left;
+    display: grid;
+    grid-template-columns: 120px 120px;
+    padding:10px;
+    grid-gap: 12px;
+
+}
+
+/* styling all the divs under navigation bar */
+#side_Nav >div
+{
+    padding:30px 30px 30px 30px;
+
+    text-align: center;
+     
+}
+
+/* styling the background color for 3 grids*/
+#grid1, #grid4, #grid5
+{
+    background-color: cornflowerblue;
+    
+}
+
+/* styling the background color of other 3 grids*/
+#grid2, #grid3, #grid6
+{
+    background-color: #ffcc00;
+    
+}
+
+/* styling the text in thje grids of side navigation bar*/
+#side_Nav a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+h1
+{
+    margin:5px;
+    padding:5px;
+    
+    font-weight: bold;
+}
+
+/* styling the home page and aboutus page*/
+#overthinking ,#stopOverthinking , #pageinfoABout 
+{
+    margin:5px 10px 5px 10px;
+    padding:5px 20px 15px 20px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+/* styling the positive attitude page*/
+#positiveAttitude 
+{
+    margin:5px 10px 5px 20px;
+    padding:5px 20px 15px 30px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+/* styling the list in pages posiitve attitude and overthinking */
+#positiveAttitudeList , #overthinkingList
+{
+    margin:5px 10px 5px 20px;
+    padding:5px 20px 15px 300px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* styling the content of the pages - get help and anger*/
+#getHelpContent ,#pageInfoAnger
+{
+    margin:5px 5px 5px 100px ;
+    padding:5px 5px 5px 200px ;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#getHelp 
+{
+    margin:1px 1px 1px 10px ;
+    padding:0px 0px 0px 0px ;
+}
+
+/* styling the h1 tag in page gethelp*/
+#pageInfoGetHelp >h1
+{
+    margin:5px 5px 5px 100px ;
+    padding:5px 5px 5px 200px ; 
+}
+/* styling the text above image in the get help page*/
+#getHelp >h3
+{
+    color :blue;
+}
+
+/* styling the content in  aboutUs page*/
+#aboutUsContent
+{
+    margin:5px 5px 5px 100px ;
+    padding:5px 5px 5px 200px ;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#aboutUsContent2
+{
+    margin:5px 5px 5px 10px ;
+    padding:5px 5px 5px 20px ;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+/* styling the book image under page aboutUs*/
+#soshapImage
+{
+    width: 250px;
+    height:400px;
+    
+    margin:5px;
+    padding:5px;
+}
+/* styling the content of page happiness*/
+#waysOfHappiness
+{
+    
+    margin:5px 5px 5px 100px ;
+    padding:5px 5px 5px 200px ;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+#happiness
+{
+    
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+#happinessLastLine
+{
+    margin:10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* styling the video in happiness page*/
+#happinessVideo
+{
+    margin: 5px;
+    padding:5px;
+    
+}
+#happinessVideoLabel
+{
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+#qsimage
+{
+    width:20%;
+    height:20%;
+}
+
+/* styling the video in the anger page*/
+#angerVideo
+{
+    margin:5px 5px 5px 100px;
+    padding:5px 5px 5px 250px;
+}
+
+/* styling the content on the pages -  meditation and exercise*/
+#pageInfoMeditaion ,#pageInfoExercise
+{
+    font-size: larger;
+    margin:5px 5px 5px 100px ;
+    padding:5px 5px 5px 200px ;
+}
+
+/* styling the contact form*/
+#contactForm
+{
+    background-color: rgb(247, 242, 177);
+}
+#form
+{
+    
+    align-content: center;
+    margin:5px 5px 5px 100px;
+    padding:5px 5px 5px 250px;
+}
+#fName , #lName, #emailId, #message
+{
+    background-color: rgb(217, 226, 243);
+}
+
+/* styling the submit and reset button*/
+#submit, #reset
+{
+    padding:3px;
+    margin-right: 5px;
+    margin-left: 30px;
+    background-color: rgb(233, 185, 66);
+}
+
+/* styling the footer of all the pages*/
+footer
+{
+    background-color: rgb(92, 89, 89);
+    margin:5px 5px 0px 5px;
+    padding:5px 5px 0px 5px;
+    position: static;
+    }
+
+tr a
+{
+    color: white;
+    text-decoration: none;
+}
+table
+{
+    padding: 16px;
+    margin:0px;
+}
+td
+{
+    padding-left: 250px;
+    padding-bottom:10px;
+    text-align:center;
+    
+}
